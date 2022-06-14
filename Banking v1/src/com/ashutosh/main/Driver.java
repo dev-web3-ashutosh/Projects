@@ -39,7 +39,6 @@ public class Driver {
 				
 				switch(choice) {
 				case 0:
-					System.out.println("Log-out successful");
 					break;
 				
 				case 1:
@@ -57,6 +56,7 @@ public class Driver {
 				
 			}while(choice != 0);
 			
+			System.out.println("Application exited successfully");
 		}
 		else {
 			System.out.println("Please provide valid credentials");
