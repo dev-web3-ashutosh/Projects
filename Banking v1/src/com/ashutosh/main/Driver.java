@@ -30,7 +30,7 @@ public class Driver {
 			System.out.println("1-> Deposit");
 			System.out.println("2-> Withdrawal");
 			System.out.println("3-> Transfer");
-			System.out.println("4-> Logout");
+			System.out.println("0-> Logout");
 			System.out.println("-----------------------------------------");
 			
 			choice=sc.nextInt();
