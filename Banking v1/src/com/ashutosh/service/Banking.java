@@ -34,7 +34,7 @@ public class Banking {
 			System.out.println("Available balance: " + getBalance());
 		}
 		else {
-			System.out.println("Insufficient balance");
+			System.out.println("Insufficient funds");
 		}
 	}
 	
