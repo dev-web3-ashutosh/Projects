@@ -4,12 +4,13 @@ import java.util.Scanner;
 
 public class Banking {
 	
-	float balance, amount = 0;
+	float balance=0;
+	int amount;
 	Scanner sc = new Scanner(System.in);
 	
 	public void deposit() {
 		System.out.println("Enter the amount to deposit");
-		amount=sc.nextFloat();
+		amount=sc.nextInt();
 		
 		if(amount>0) {
 			balance += amount;
@@ -22,7 +23,17 @@ public class Banking {
 	}
 	
 	public void withdrawal() {
+		System.out.println("Enter the amount to withdraw");
+		amount=sc.nextInt();
 		
+		if(amount<=balance) {
+			balance -= amount;
+			System.out.println("Rs. " + amount + " withdrawn successfully");
+			System.out.println("Available balance: " + getBalance());
+		}
+		else {
+			System.out.println("Insufficient balance");
+		}
 	}
 	
 	public void transfer() {
