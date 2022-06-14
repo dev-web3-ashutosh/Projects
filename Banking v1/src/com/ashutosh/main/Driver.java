@@ -22,7 +22,9 @@ public class Driver {
 		System.out.println("Enter your Password");
 		pwd=sc.next();
 		
-		
+		if(accNo == cust1.getBankAccountNo() && pwd == cust1.getPassword()) {
+			
+		}
 
 	}
 
