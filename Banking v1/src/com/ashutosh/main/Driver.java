@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 import com.ashutosh.model.Customer;
 import com.ashutosh.service.Banking;
-import com.ashutosh.service.OTPGenerator;
 
 public class Driver {
 
@@ -12,7 +11,6 @@ public class Driver {
 		
 		Customer cust1 = new Customer(123456L, "password");
 		Banking banking = new Banking();
-		OTPGenerator otp = new OTPGenerator();
 		
 		Scanner sc = new Scanner(System.in);
 		

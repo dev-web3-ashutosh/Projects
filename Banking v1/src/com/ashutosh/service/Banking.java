@@ -7,6 +7,7 @@ public class Banking {
 	float balance=0;
 	int amount;
 	Scanner sc = new Scanner(System.in);
+	OTPGenerator otp = new OTPGenerator();
 	
 	public void deposit() {
 		System.out.println("Enter the amount to deposit");
