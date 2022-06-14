@@ -12,20 +12,13 @@ public class Customer {
 		this.password = password;
 	}
 	
-	//getter and setter methods using IDE features
+	//getter method using IDE features
 	public long getBankAccountNo() {
 		return bankAccountNo;
-	}
-
-	public void setBankAccountNo(long bankAccountNo) {
-		this.bankAccountNo = bankAccountNo;
 	}
 
 	public String getPassword() {
 		return password;
 	}
 
-	public void setPassword(String password) {
-		this.password = password;
-	}
 }
