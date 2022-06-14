@@ -14,7 +14,7 @@ public class Banking {
 		if(amount>0) {
 			balance += amount;
 			System.out.println("Rs. " + amount + " deposited successfully");
-			System.out.println("Available balance: " + balance());
+			System.out.println("Available balance: " + getBalance());
 		}
 		else {
 			System.out.println("Please enter valid amount");
@@ -27,6 +27,10 @@ public class Banking {
 	
 	public void transfer() {
 		
+	}
+	
+	float getBalance() {
+		return balance;
 	}
 
 }
