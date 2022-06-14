@@ -23,12 +23,14 @@ public class Driver {
 		pwd=sc.next();
 		
 		if(cust1.getBankAccountNo() == accNo && cust1.getPassword().equals(pwd)) {
+			System.out.println("-----------------------------------------");
 			System.out.println("Welcome to the Banking Page\n");
+			System.out.println("Please choose option");
 			System.out.println("1-> Deposit");
 			System.out.println("2-> Withdrawal");
 			System.out.println("3-> Transfer");
 			System.out.println("4-> Logout");
-			
+			System.out.println("-----------------------------------------");
 			
 		}
 		else {
