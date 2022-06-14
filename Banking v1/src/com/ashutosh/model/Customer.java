@@ -17,6 +17,14 @@ public class Customer {
 		return bankAccountNo;
 	}
 
+	public void setBankAccountNo(long bankAccountNo) {
+		this.bankAccountNo = bankAccountNo;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
 	public String getPassword() {
 		return password;
 	}
