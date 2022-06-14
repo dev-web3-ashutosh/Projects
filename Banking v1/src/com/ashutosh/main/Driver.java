@@ -16,6 +16,14 @@ public class Driver {
 		String pwd;
 		
 
+		System.out.println("Welcome to log-in page\n");
+		System.out.println("Enter Account Number");
+		accNo = sc.nextLong();
+		System.out.println("Enter your Password");
+		pwd=sc.next();
+		
+		
+
 	}
 
 }
