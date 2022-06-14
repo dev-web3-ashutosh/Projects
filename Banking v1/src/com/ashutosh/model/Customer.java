@@ -12,6 +12,10 @@ public class Customer {
 		this.password=password;
 	}
 	
-	
+	//getter method
+	public void getCredential() {
+		System.out.println("Account Number: " + bankAccountNo);
+		System.out.println("Password: " + password);
+	}
 
 }
