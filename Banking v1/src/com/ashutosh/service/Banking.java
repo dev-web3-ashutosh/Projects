@@ -26,7 +26,7 @@ public class Banking {
 		System.out.println("Enter the amount to withdraw");
 		amount=sc.nextInt();
 		
-		if(amount<=balance) {
+		if(balance - amount>=0) {
 			balance -= amount;
 			System.out.println("Rs. " + amount + " withdrawn successfully");
 			System.out.println("Available balance: " + getBalance());
