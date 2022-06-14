@@ -26,7 +26,7 @@ public class Driver {
 		
 		if(cust1.getBankAccountNo() == accNo && cust1.getPassword().equals(pwd)) {
 			int choice;
-			System.out.println("Welcome to the Banking Page\n");
+			System.out.println("\nWelcome to the Banking Page\n");
 			
 			do {
 				System.out.println("-----------------------------------------");
@@ -57,6 +57,9 @@ public class Driver {
 					//transfer
 					banking.transfer();
 					break;
+					
+				default:
+					System.out.println("Please enter valid option number");
 				}
 				
 			}while(choice != 0);
