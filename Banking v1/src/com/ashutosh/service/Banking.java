@@ -18,7 +18,7 @@ public class Banking {
 			System.out.println("Available balance: " + getBalance());
 		}
 		else {
-			System.out.println("Please enter valid amount");
+			System.out.println("Please enter a valid amount");
 		}
 	}
 	
@@ -26,7 +26,7 @@ public class Banking {
 		System.out.println("Enter the amount to withdraw");
 		amount=sc.nextInt();
 		
-		if(balance - amount>=0) {
+		if(balance-amount>=0) {
 			balance -= amount;
 			System.out.println("Rs. " + amount + " withdrawn successfully");
 			System.out.println("Available balance: " + getBalance());
@@ -40,7 +40,7 @@ public class Banking {
 		
 	}
 	
-	float getBalance() {
+	public float getBalance() {
 		return balance;
 	}
 

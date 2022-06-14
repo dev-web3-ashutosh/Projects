@@ -34,6 +34,7 @@ public class Driver {
 				System.out.println("1-> Deposit");
 				System.out.println("2-> Withdrawal");
 				System.out.println("3-> Transfer");
+				System.out.println("4-> Check Balance");
 				System.out.println("0-> Logout");
 				System.out.println("-----------------------------------------");
 				
@@ -56,6 +57,11 @@ public class Driver {
 				case 3:
 					//transfer
 					banking.transfer();
+					break;
+					
+				case 4:
+					//check balance
+					System.out.println("Available balance: " + banking.getBalance());
 					break;
 					
 				default:
