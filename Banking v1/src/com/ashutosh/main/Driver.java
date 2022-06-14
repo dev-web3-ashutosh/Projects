@@ -24,16 +24,19 @@ public class Driver {
 		
 		if(cust1.getBankAccountNo() == accNo && cust1.getPassword().equals(pwd)) {
 			int choice;
-			System.out.println("-----------------------------------------");
 			System.out.println("Welcome to the Banking Page\n");
-			System.out.println("Please choose option");
-			System.out.println("1-> Deposit");
-			System.out.println("2-> Withdrawal");
-			System.out.println("3-> Transfer");
-			System.out.println("0-> Logout");
-			System.out.println("-----------------------------------------");
 			
-			choice=sc.nextInt();
+			do {
+				System.out.println("-----------------------------------------");
+				System.out.println("Please choose option");
+				System.out.println("1-> Deposit");
+				System.out.println("2-> Withdrawal");
+				System.out.println("3-> Transfer");
+				System.out.println("0-> Logout");
+				System.out.println("-----------------------------------------");
+				
+				choice=sc.nextInt();
+			}while(choice != 0);
 			
 		}
 		else {
