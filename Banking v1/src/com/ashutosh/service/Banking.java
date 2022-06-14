@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class Banking {
 	
 	float balance=0;
-	int amount;
 	Scanner sc = new Scanner(System.in);
 	OTPGenerator otpObj = new OTPGenerator();
 	
 	public void deposit() {
+		int amount;
 		System.out.println("Enter the amount to deposit");
 		amount=sc.nextInt();
 		
@@ -24,6 +24,7 @@ public class Banking {
 	}
 	
 	public void withdrawal() {
+		int amount;
 		System.out.println("Enter the amount to withdraw");
 		amount=sc.nextInt();
 		
@@ -40,6 +41,7 @@ public class Banking {
 	public void transfer() {
 		
 		int otp, otpGenerated;
+		float amount;
 		long accNo;
 		
 		otpGenerated = otpObj.getOTP();
@@ -49,7 +51,20 @@ public class Banking {
 		otp=sc.nextInt();
 		
 		if(otp == otpGenerated) {
+			System.out.println("OTP verification successful");
+			System.out.println("Enter amount to be transferred");
+			amount=sc.nextFloat();
+			System.out.println("Enter Account Number of beneficiary");
+			accNo=sc.nextLong();
 			
+			if(balance - amount >= 0) {
+				balance -= amount;
+				System.out.println("Rs. " + amount + " transferred successfully to Account Number " + accNo);
+				System.out.println("Available balance: " + getBalance());
+			}
+			else {
+				System.out.println("Insufficient funds");
+			}
 		}
 		else {
 			System.out.println("Invalid OTP");
