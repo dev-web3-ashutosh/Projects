@@ -23,7 +23,7 @@ public class Driver {
 		pwd=sc.next();
 		
 		if(cust1.getBankAccountNo() == accNo && cust1.getPassword().equals(pwd)) {
-			
+			System.out.println("Welcome to the Banking Page");
 		}
 
 	}
