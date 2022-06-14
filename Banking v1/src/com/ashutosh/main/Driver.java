@@ -76,7 +76,7 @@ public class Driver {
 			System.out.println("Please provide valid credentials");
 		}
 		
-		
+		sc.close();
 	}
 
 }
