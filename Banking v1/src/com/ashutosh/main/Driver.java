@@ -36,6 +36,25 @@ public class Driver {
 				System.out.println("-----------------------------------------");
 				
 				choice=sc.nextInt();
+				
+				switch(choice) {
+				case 0:
+					System.out.println("Log-out successful");
+					break;
+				
+				case 1:
+					//deposit
+					break;
+					
+				case 2:
+					//withdrawal
+					break;
+					
+				case 3:
+					//transfer
+					break;
+				}
+				
 			}while(choice != 0);
 			
 		}
