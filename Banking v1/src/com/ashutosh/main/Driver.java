@@ -25,6 +25,9 @@ public class Driver {
 		if(cust1.getBankAccountNo() == accNo && cust1.getPassword().equals(pwd)) {
 			System.out.println("Welcome to the Banking Page");
 		}
+		else {
+			System.out.println("Please provide valid credentials");
+		}
 
 	}
 
