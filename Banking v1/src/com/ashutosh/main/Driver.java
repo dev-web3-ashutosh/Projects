@@ -8,6 +8,9 @@ public class Driver {
 		
 		Customer cust1 = new Customer(123456L, "password");
 		
+		long accNo;
+		String pwd;
+		
 		
 
 	}
