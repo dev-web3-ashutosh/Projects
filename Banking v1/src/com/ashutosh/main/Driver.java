@@ -6,7 +6,7 @@ public class Driver {
 
 	public static void main(String[] args) {
 		
-		Customer cust1 = new Customer(123456, "password");
+		Customer cust1 = new Customer(123456L, "password");
 		
 		
 
