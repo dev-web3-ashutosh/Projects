@@ -45,14 +45,17 @@ public class Driver {
 				
 				case 1:
 					//deposit
+					banking.deposit();
 					break;
 					
 				case 2:
 					//withdrawal
+					banking.withdrawal();
 					break;
 					
 				case 3:
 					//transfer
+					banking.transfer();
 					break;
 				}
 				
