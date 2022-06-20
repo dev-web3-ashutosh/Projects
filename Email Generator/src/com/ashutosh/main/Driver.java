@@ -13,6 +13,9 @@ public class Driver {
 		CredentialService cs = new CredentialService();
 		Scanner sc = new Scanner(System.in);
 		
+		String genEmail, genPassword;
+		int choice;
+		
 		
 
 	}
