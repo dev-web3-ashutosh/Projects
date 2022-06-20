@@ -45,7 +45,8 @@ public class Driver {
 		default:
 			System.out.println("Invalid Input");
 		}
-
+		
+		sc.close();
 	}
 
 }
