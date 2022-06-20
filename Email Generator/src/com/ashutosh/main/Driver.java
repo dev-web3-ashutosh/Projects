@@ -13,7 +13,8 @@ public class Driver {
 		CredentialService cs = new CredentialService();
 		Scanner sc = new Scanner(System.in);
 		
-		String genEmail, genPassword;
+		String genEmail;
+		char[] genPassword;
 		int choice;
 		
 		System.out.println("Please enter the department from the following");
@@ -27,8 +28,8 @@ public class Driver {
 		switch(choice) {
 		
 		case 1:
-			cs.generateEmailAddress(emp.getFirstName().toLowerCase(), emp.getLastName().toLowerCase(), "tech");
-			cs.generatePassword();
+			genEmail = cs.generateEmailAddress(emp.getFirstName().toLowerCase(), emp.getLastName().toLowerCase(), "tech");
+			genPassword = cs.generatePassword();
 			cs.showCredentials(emp, genEmail, genPassword);
 			break;
 		
