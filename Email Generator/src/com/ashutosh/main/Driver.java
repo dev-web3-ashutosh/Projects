@@ -34,7 +34,9 @@ public class Driver {
 			break;
 		
 		case 2:
-			
+			genEmail = cs.generateEmailAddress(emp.getFirstName().toLowerCase(), emp.getLastName().toLowerCase(), "admin");
+			genPassword = cs.generatePassword();
+			cs.showCredentials(emp, genEmail, genPassword);
 			break;
 			
 		case 3:
