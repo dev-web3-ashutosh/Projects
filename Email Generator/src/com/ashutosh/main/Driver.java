@@ -22,6 +22,8 @@ public class Driver {
 		System.out.println("3. Human Resource");
 		System.out.println("4. Legal");
 		
+		choice = sc.nextInt();
+		
 		
 
 	}
