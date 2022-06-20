@@ -27,7 +27,9 @@ public class Driver {
 		switch(choice) {
 		
 		case 1:
-			
+			cs.generateEmailAddress(emp.getFirstName().toLowerCase(), emp.getLastName().toLowerCase(), "tech");
+			cs.generatePassword();
+			cs.showCredentials(emp, genEmail, genPassword);
 			break;
 		
 		case 2:
