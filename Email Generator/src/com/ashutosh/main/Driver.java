@@ -16,6 +16,12 @@ public class Driver {
 		String genEmail, genPassword;
 		int choice;
 		
+		System.out.println("Please enter the department from the following");
+		System.out.println("1. Technical");
+		System.out.println("2. Admin");
+		System.out.println("3. Human Resource");
+		System.out.println("4. Legal");
+		
 		
 
 	}
