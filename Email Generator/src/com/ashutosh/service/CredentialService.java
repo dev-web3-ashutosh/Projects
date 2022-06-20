@@ -23,6 +23,11 @@ public class CredentialService {
 		return pwd;
 	}
 	
-	
+	public String generateEmailAddress(String firstName, String lastName, String department) {
+		
+		String email = firstName + lastName + "@" + department + ".google.com";
+		
+		return email;
+	}
 
 }
