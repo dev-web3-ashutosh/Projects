@@ -2,6 +2,8 @@ package com.ashutosh.service;
 
 import java.util.Random;
 
+import com.ashutosh.model.Employee;
+
 public class CredentialService {
 	
 	public char[] generatePassword( ) {
@@ -28,6 +30,13 @@ public class CredentialService {
 		String email = firstName + lastName + "@" + department + ".google.com";
 		
 		return email;
+	}
+	
+	public void showCredentials(Employee employee, String email, char[] password) {
+		
+		System.out.println("Dear " + employee.getFirstName() + " your generated credentials are as follows");
+		System.out.println("Email    --> " + email);
+		System.out.println("Password --> " + String.valueOf(password));
 	}
 
 }
