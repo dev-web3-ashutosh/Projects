@@ -31,7 +31,6 @@ public class Calculator {
 	JButton buttonEqual = new JButton();
 	
 	double num1, num2, result;
-	
-	
+	int addc=0, subc=0, mulc=0, divc=0;
 
 }
