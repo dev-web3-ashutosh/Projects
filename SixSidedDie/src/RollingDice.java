@@ -12,7 +12,7 @@ public class RollingDice {
 		
 		RollingDice obj = new RollingDice();
 		
-		System.out.println();
+		System.out.println(obj.rollDice());
 
 	}
 
