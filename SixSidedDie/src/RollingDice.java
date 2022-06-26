@@ -6,6 +6,8 @@ public class RollingDice {
 		
 		Random rand = new Random();
 		
+		int x = rand.nextInt(6);
+		
 		
 
 	}
