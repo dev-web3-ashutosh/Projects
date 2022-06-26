@@ -1,6 +1,6 @@
 package com.ashutosh.main;
 
-import com.ashutosh.service.Calculator;
+import com.ashutosh.model.Calculator;
 
 public class Driver {
 
