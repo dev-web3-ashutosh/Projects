@@ -1,15 +1,21 @@
 package com.ashutosh.service;
 
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.Font;
+
+import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
+import javax.swing.border.Border;
 
 public class Calculator {
 	
 	JFrame frame = new JFrame();
 	JPanel panel = new JPanel();
-	JTextArea textArea = new JTextArea();
+	JTextArea textArea = new JTextArea(2,10);
 	
 	JButton button0 = new JButton();
 	JButton button1 = new JButton();
@@ -32,5 +38,28 @@ public class Calculator {
 	
 	double num1, num2, result;
 	int addc=0, subc=0, mulc=0, divc=0;
+	
+	public Calculator() {
+		frame.setSize(340, 450);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setVisible(true);
+		frame.setTitle("Calculator");
+		
+		//frame.setResizable(false);
+		frame.add(panel);
+		panel.setBackground(Color.LIGHT_GRAY);
+		Border border = BorderFactory.createLineBorder(Color.RED, 4, true);
+		
+		panel.add(textArea);
+		textArea.setBackground(Color.BLACK);
+		Border tBorder = BorderFactory.createLineBorder(Color.BLUE, 3);
+		textArea.setBorder(tBorder);
+		Font font = new Font("arial",Font.BOLD,33);
+		textArea.setFont(font);
+		textArea.setForeground(Color.WHITE);
+		
+		textArea.setPreferredSize(new Dimension(2,10));
+		textArea.setLineWrap(true);
+	}
 
 }
