@@ -15,7 +15,7 @@ public class Calculator {
 	
 	JFrame frame = new JFrame();
 	JPanel panel = new JPanel();
-	JTextArea textArea = new JTextArea(2,10);
+	JTextArea textArea = new JTextArea(2,11);
 	
 	JButton button0 = new JButton();
 	JButton button1 = new JButton();
@@ -48,17 +48,18 @@ public class Calculator {
 		//frame.setResizable(false);
 		frame.add(panel);
 		panel.setBackground(Color.LIGHT_GRAY);
-		Border border = BorderFactory.createLineBorder(Color.RED, 4, true);
+		Border border = BorderFactory.createLineBorder(Color.BLACK, 2, true);
+		panel.setBorder(border);
 		
 		panel.add(textArea);
 		textArea.setBackground(Color.BLACK);
-		Border tBorder = BorderFactory.createLineBorder(Color.BLUE, 3);
+		Border tBorder = BorderFactory.createLineBorder(Color.WHITE, 2);
 		textArea.setBorder(tBorder);
-		Font font = new Font("arial",Font.BOLD,33);
+		Font font = new Font("arial",Font.BOLD,30);
 		textArea.setFont(font);
 		textArea.setForeground(Color.WHITE);
 		
-		textArea.setPreferredSize(new Dimension(2,10));
+		textArea.setPreferredSize(new Dimension(2,11));
 		textArea.setLineWrap(true);
 	}
 
