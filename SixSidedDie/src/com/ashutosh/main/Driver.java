@@ -8,7 +8,7 @@ public class Driver {
 		
 		RollingDice obj = new RollingDice();
 		
-		
+		System.out.println(obj.rollDice());
 
 	}
 
