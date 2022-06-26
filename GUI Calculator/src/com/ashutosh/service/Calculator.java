@@ -29,5 +29,9 @@ public class Calculator {
 	JButton buttonClear = new JButton();
 	JButton buttonDot = new JButton();
 	JButton buttonEqual = new JButton();
+	
+	double num1, num2, result;
+	
+	
 
 }
