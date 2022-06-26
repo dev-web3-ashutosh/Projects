@@ -6,9 +6,9 @@ public class RollingDice {
 		
 		Random rand = new Random();
 		
-		int x = rand.nextInt(6);
+		int x = rand.nextInt(6) + 1;
 		
-		System.out.println("You rolled a " + (x+1));
+		System.out.println("You rolled a " + x);
 
 	}
 
