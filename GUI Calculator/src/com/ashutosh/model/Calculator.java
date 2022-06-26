@@ -3,6 +3,7 @@ package com.ashutosh.model;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
+import java.awt.event.ActionListener;
 
 import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
@@ -132,7 +133,23 @@ public class Calculator {
 		panel.add(buttonClear);
 		panel.add(buttonEqual);
 		
-		
+		button0.addActionListener((ActionListener) this);
+		button1.addActionListener((ActionListener) this);
+		button2.addActionListener((ActionListener) this);
+		button3.addActionListener((ActionListener) this);
+		button4.addActionListener((ActionListener) this);
+		button5.addActionListener((ActionListener) this);
+		button6.addActionListener((ActionListener) this);
+		button7.addActionListener((ActionListener) this);
+		button8.addActionListener((ActionListener) this);
+		button9.addActionListener((ActionListener) this);
+		buttonAdd.addActionListener((ActionListener) this);
+		buttonSub.addActionListener((ActionListener) this);
+		buttonMul.addActionListener((ActionListener) this);
+		buttonDiv.addActionListener((ActionListener) this);
+		buttonClear.addActionListener((ActionListener) this);
+		buttonDot.addActionListener((ActionListener) this);
+		buttonEqual.addActionListener((ActionListener) this);
 		
 	}
 
