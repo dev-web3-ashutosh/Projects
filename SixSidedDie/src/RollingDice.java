@@ -8,7 +8,7 @@ public class RollingDice {
 		
 		int x = rand.nextInt(6);
 		
-		
+		System.out.println("You rolled a " + (x+1));
 
 	}
 
