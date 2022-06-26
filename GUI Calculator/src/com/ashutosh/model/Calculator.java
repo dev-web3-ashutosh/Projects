@@ -63,55 +63,55 @@ public class Calculator {
 		textArea.setPreferredSize(new Dimension(2,11));
 		textArea.setLineWrap(true);
 		
-		button1.setPreferredSize(new Dimension(100,40));
+		button1.setPreferredSize(new Dimension(90,40));
 		button1.setIcon(new ImageIcon("C:\\Users\\ashut\\eclipse-workspace\\Projects\\GUI Calculator\\Caculator Buttons\\button1.png"));
 		
-		button2.setPreferredSize(new Dimension(100,40));
+		button2.setPreferredSize(new Dimension(90,40));
 		button2.setIcon(new ImageIcon("C:\\Users\\ashut\\eclipse-workspace\\Projects\\GUI Calculator\\Caculator Buttons\\button2.png"));
 		
-		button3.setPreferredSize(new Dimension(100,40));
+		button3.setPreferredSize(new Dimension(90,40));
 		button3.setIcon(new ImageIcon("C:\\Users\\ashut\\eclipse-workspace\\Projects\\GUI Calculator\\Caculator Buttons\\button3.png"));
 		
-		button4.setPreferredSize(new Dimension(100,40));
+		button4.setPreferredSize(new Dimension(90,40));
 		button4.setIcon(new ImageIcon("C:\\Users\\ashut\\eclipse-workspace\\Projects\\GUI Calculator\\Caculator Buttons\\button4.png"));
 		
-		button5.setPreferredSize(new Dimension(100,40));
+		button5.setPreferredSize(new Dimension(90,40));
 		button5.setIcon(new ImageIcon("C:\\Users\\ashut\\eclipse-workspace\\Projects\\GUI Calculator\\Caculator Buttons\\button5.png"));
 		
-		button6.setPreferredSize(new Dimension(100,40));
+		button6.setPreferredSize(new Dimension(90,40));
 		button6.setIcon(new ImageIcon("C:\\Users\\ashut\\eclipse-workspace\\Projects\\GUI Calculator\\Caculator Buttons\\button6.png"));
 		
-		button7.setPreferredSize(new Dimension(100,40));
+		button7.setPreferredSize(new Dimension(90,40));
 		button7.setIcon(new ImageIcon("C:\\Users\\ashut\\eclipse-workspace\\Projects\\GUI Calculator\\Caculator Buttons\\button7.png"));
 		
-		button8.setPreferredSize(new Dimension(100,40));
+		button8.setPreferredSize(new Dimension(90,40));
 		button8.setIcon(new ImageIcon("C:\\Users\\ashut\\eclipse-workspace\\Projects\\GUI Calculator\\Caculator Buttons\\button8.png"));
 		
-		button9.setPreferredSize(new Dimension(100,40));
+		button9.setPreferredSize(new Dimension(90,40));
 		button9.setIcon(new ImageIcon("C:\\Users\\ashut\\eclipse-workspace\\Projects\\GUI Calculator\\Caculator Buttons\\button9.png"));
 		
-		button0.setPreferredSize(new Dimension(100,40));
+		button0.setPreferredSize(new Dimension(90,40));
 		button0.setIcon(new ImageIcon("C:\\Users\\ashut\\eclipse-workspace\\Projects\\GUI Calculator\\Caculator Buttons\\button0.png"));
 		
-		buttonAdd.setPreferredSize(new Dimension(100,40));
+		buttonAdd.setPreferredSize(new Dimension(90,40));
 		buttonAdd.setIcon(new ImageIcon("C:\\Users\\ashut\\eclipse-workspace\\Projects\\GUI Calculator\\Caculator Buttons\\buttonadd.png"));
 		
-		buttonSub.setPreferredSize(new Dimension(100,40));
+		buttonSub.setPreferredSize(new Dimension(90,40));
 		buttonSub.setIcon(new ImageIcon("C:\\Users\\ashut\\eclipse-workspace\\Projects\\GUI Calculator\\Caculator Buttons\\buttonsub.png"));
 		
-		buttonMul.setPreferredSize(new Dimension(100,40));
+		buttonMul.setPreferredSize(new Dimension(90,40));
 		buttonMul.setIcon(new ImageIcon("C:\\Users\\ashut\\eclipse-workspace\\Projects\\GUI Calculator\\Caculator Buttons\\buttonmul.png"));
 		
-		buttonDiv.setPreferredSize(new Dimension(100,40));
+		buttonDiv.setPreferredSize(new Dimension(90,40));
 		buttonDiv.setIcon(new ImageIcon("C:\\Users\\ashut\\eclipse-workspace\\Projects\\GUI Calculator\\Caculator Buttons\\buttondiv.png"));
 		
-		buttonClear.setPreferredSize(new Dimension(100,40));
+		buttonClear.setPreferredSize(new Dimension(90,40));
 		buttonClear.setIcon(new ImageIcon("C:\\Users\\ashut\\eclipse-workspace\\Projects\\GUI Calculator\\Caculator Buttons\\buttonclear.png"));
 		
-		buttonDot.setPreferredSize(new Dimension(100,40));
+		buttonDot.setPreferredSize(new Dimension(90,40));
 		buttonDot.setIcon(new ImageIcon("C:\\Users\\ashut\\eclipse-workspace\\Projects\\GUI Calculator\\Caculator Buttons\\buttondot.png"));
 		
-		buttonEqual.setPreferredSize(new Dimension(100,40));
+		buttonEqual.setPreferredSize(new Dimension(90,40));
 		buttonEqual.setIcon(new ImageIcon("C:\\Users\\ashut\\eclipse-workspace\\Projects\\GUI Calculator\\Caculator Buttons\\buttonequal.png"));
 		
 		panel.add(button0);
