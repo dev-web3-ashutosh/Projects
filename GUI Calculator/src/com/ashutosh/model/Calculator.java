@@ -114,7 +114,6 @@ public class Calculator {
 		buttonEqual.setPreferredSize(new Dimension(90,40));
 		buttonEqual.setIcon(new ImageIcon("C:\\Users\\ashut\\eclipse-workspace\\Projects\\GUI Calculator\\Caculator Buttons\\buttonequal.png"));
 		
-		panel.add(button0);
 		panel.add(button1);
 		panel.add(button2);
 		panel.add(button3);
@@ -124,12 +123,13 @@ public class Calculator {
 		panel.add(button7);
 		panel.add(button8);
 		panel.add(button9);
+		panel.add(buttonDot);
+		panel.add(button0);
 		panel.add(buttonAdd);
 		panel.add(buttonSub);
 		panel.add(buttonMul);
 		panel.add(buttonDiv);
 		panel.add(buttonClear);
-		panel.add(buttonDot);
 		panel.add(buttonEqual);
 		
 		
